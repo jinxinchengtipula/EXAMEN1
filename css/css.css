@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.btnWitdh {
+    width: 100%;
+}
+.btnIcon i {
+    margin-right: 10px;
+}
+.btnIcon {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.collection .collection-item.avatar .title {
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+}
+.collection .collection-item.avatar p.precio {
+    color: #2bbbad;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.producto-info img {
+    width: 100px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+#tituloCursos {
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    font-size: 24px; 
+    margin-bottom: 20px;
+}
+
+
+.container {
+    margin-top: 20px; 
+    padding: 20px; 
+}
+
+
+.perfil-info {
+    text-align: center;
+}
+
+.perfil-info img {
+    width: 150px; 
+    border-radius: 50%; 
+    margin-bottom: 20px; 
+}
+
+.perfil-info ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    font-size: 16px; 
+}
+
+.perfil-info ul li {
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+
+#encuestaForm {
+    margin-top: 30px; 
+}
+
+#encuestaForm p {
+    margin-bottom: 15px; 
+}
+
+.perfil-info .perfil-item {
+    list-style-type: none; 
+    position: relative; 
+}
+
+.perfil-info .perfil-item::before {
+    content: "\2665"; 
+    color: #ff6b6b; 
+    position: absolute; 
+    left: -20px; 
+    top: 3px; 
+}
+
+.perfil-info img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 8px; 
+    border: 3px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+
+
+.perfil-info h2 {
+    font-weight: bold; 
+    white-space: nowrap; 
+    margin-bottom: 20px; 
+}
+
+.perfil-info {
+    background-color: #fce4ec; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#misProductos {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.collection-item {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.collection-item:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease;
+}
+
+.collection-item .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.collection-item .descripcion {
+    font-size: 14px;
+    color: #666;
+}
+
+.collection-item .imagen {
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+/* Estilos para el contenedor de perfil */
+.perfil-info {
+    margin-bottom: 40px;
+}
+
+.perfil-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.perfil-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
